@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "hello" $USER
+user=$(id -un)
+echo "hello $user"
+
